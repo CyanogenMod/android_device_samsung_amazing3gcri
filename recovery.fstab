@@ -36,6 +36,5 @@
 /system		ext4		/dev/block/mmcblk0p16
 /persist	ext4		/dev/block/mmcblk0p11
 /efs		ext4		/dev/block/mmcblk0p19
-/modem		ext4		/dev/block/mmcblk0p3
 /hidden		ext4		/dev/block/mmcblk0p22
 /param		ext4		/dev/block/mmcblk0p13
