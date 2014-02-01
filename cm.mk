@@ -1,5 +1,5 @@
 ## Specify phone tech before including full_phone
-$(call inherit-product, vendor/cm/config/gsm.mk)
+$(call inherit-product, vendor/cm/config/cdma.mk)
 
 # Release name
 PRODUCT_RELEASE_NAME := amazing3gcri
@@ -14,5 +14,5 @@ $(call inherit-product, device/samsung/amazing3gcri/device_amazing3gcri.mk)
 PRODUCT_DEVICE := amazing3gcri
 PRODUCT_NAME := cm_amazing3gcri
 PRODUCT_BRAND := samsung
-PRODUCT_MODEL := amazing3gcri
+PRODUCT_MODEL := SCH-R740C
 PRODUCT_MANUFACTURER := samsung
