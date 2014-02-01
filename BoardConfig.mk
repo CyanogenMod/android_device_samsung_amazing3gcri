@@ -26,7 +26,7 @@ BOARD_FLASH_BLOCK_SIZE := 131072
 
 # Kernel
 TARGET_KERNEL_CONFIG := amazing3g_cri_00_defconfig
-TARGET_KERNEL_SOURCE := kernel/samsung/discover
+TARGET_KERNEL_SOURCE := kernel/samsung/amazing3gcri
 
 # Recovery
 BOARD_RECOVERY_SWIPE := true
