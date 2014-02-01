@@ -1,4 +1,5 @@
-android_device_samsung_amazing3gcri
-===================================
+Copyright 2014 - The CyanogenMod Project
 
-Samsung SCH-R740C device files
+Device configuration for Samsung Discover (SCH-R740C).
+
+WORK IN PROGRESS. WILL EAT YOUR CAT.
