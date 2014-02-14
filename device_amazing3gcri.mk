@@ -7,6 +7,13 @@ $(call inherit-product-if-exists, vendor/samsung/amazing3gcri/amazing3gcri-vendo
 
 DEVICE_PACKAGE_OVERLAYS += device/samsung/amazing3gcri/overlay
 
+LOCAL_PATH := device/samsung/amazing3gcri
+ifeq ($(TARGET_PREBUILT_KERNEL),)
+	LOCAL_KERNEL := $(LOCAL_PATH)/kernel
+else
+	LOCAL_KERNEL := $(TARGET_PREBUILT_KERNEL)
+endif
+
 PRODUCT_COPY_FILES += \
     $(LOCAL_KERNEL):kernel
 

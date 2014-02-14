@@ -25,8 +25,9 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 0xAE69E700
 BOARD_FLASH_BLOCK_SIZE := 131072
 
 # Kernel
-TARGET_KERNEL_CONFIG := amazing3g_cri_00_defconfig
-TARGET_KERNEL_SOURCE := kernel/samsung/amazing3gcri
+#TARGET_KERNEL_CONFIG := amazing3g_cri_00_defconfig
+#TARGET_KERNEL_SOURCE := kernel/samsung/amazing3gcri
+TARGET_PREBUILT_KERNEL := device/samsung/amazing3gcri/kernel
 
 # Recovery
 BOARD_RECOVERY_SWIPE := true
